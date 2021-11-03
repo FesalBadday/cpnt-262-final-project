@@ -10,6 +10,7 @@
 
 ## Team Rules
 * Comment your commits
-* Have fun
+* Try to stick to your own files, to avoid merge conflicts
+* Ask questions if not sure, and have fun
   
 ### Attributions
