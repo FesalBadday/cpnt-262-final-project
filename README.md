@@ -1,3 +1,15 @@
-# cpnt-262-final-project
+# CPNT262 - Final Project
 
-- Authurs: <a href="https://github.com/lucas-cq">Lucas</a> <href="https://github.com/FesalBadday">Fasal</a><a href="https://github.com/Raj-Hunjan">Raj<a> <a href="https://github.com/Hyeju1996>Hyeju</a>
+## Matrix Squad
+
+### Authors
+* [Fesal]()
+* [Raj]()
+* [Lucas]()
+* [Hyeju]()
+
+## Team Rules
+* Comment your commits
+* Have fun
+  
+### Attributions
