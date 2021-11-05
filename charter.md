@@ -10,6 +10,10 @@
 ## CSS
 * Hyeju
 
+## Data Gathering
+#### Gather images / assets, compress or rezise when needed
+* Hyeju
+
 ## JS Server Endpoints
 * Everyone
 
