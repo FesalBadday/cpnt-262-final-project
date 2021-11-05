@@ -11,7 +11,7 @@
 * Hyeju
 
 ## Data Gathering
-#### Gather images / assets, compress or rezise when needed
+#### Gather images / assets, compress or resize when needed
 * Hyeju
 
 ## JS Server Endpoints
