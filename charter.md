@@ -1,4 +1,4 @@
-# Group Charter
+# Matrix Squad Group Charter
 
 ## HTML
 * index.html: Lucas
