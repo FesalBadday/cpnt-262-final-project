@@ -35,3 +35,19 @@ header {
 body {
   margin: 0px auto;
 }
+
+/* ****** */
+/* Footer */
+/* ****** */
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  background-color: #7ebf60;
+  margin: 20px 0px 0px 0px;
+}
+
+.footer-text {
+  font-size: 20px;
+  padding: 10px;
+}
