@@ -7,12 +7,12 @@ const fetchData = async () => {
     let link = null;
 
     // check what data is needed from link bar
-    if (window.location.pathname === '/store') {
-      link = 'games';
+    if (window.location.pathname === '/subscriber') {
+      link = 'subs';
     } else if (window.location.pathname === '/team') {
       link = 'member';
     } else {
-      link = 'subs';
+      link = 'games';
     }
 
     // fetch data
@@ -45,6 +45,7 @@ const fetchData = async () => {
       } else {
         output += info.email;
       }
+      console.log(output);
     })
 
     // print output and date
