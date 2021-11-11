@@ -3,6 +3,7 @@
 /******************/
 const express = require('express') // import express module
 const router = express.Router()
+router.use(express.urlencoded({ extended: true }))
 
 const Store = require('../models/store') // import store module
 const Subscriber = require('../models/subscriber') // import subscriber module
@@ -20,8 +21,8 @@ router.get('/store', (req, res) => {
   res.render('store')
 })
 
-router.get('/subscriber', (req, res) => {
-  res.render('subscriber')
+router.get('/subscribe', (req, res) => {
+  res.render('subscribe')
 })
 
 router.get('/team', (req, res) => {
@@ -59,6 +60,21 @@ router.get('/member', async (req, res) => {
   } catch (err) { // catch errors
     console.log(err) // console log the error
     res.send({ error: 'Data Not Found' }) // send JSON 404 error
+  }
+})
+
+// add new subscriber
+router.post('/subscribe', async (req, res) => {
+  try {
+    const newSub = new Subscriber(req.body)
+
+    await newSub.save() // save user
+    res.redirect('/subscribe') // redirect to success page
+    console.log(newSub)
+
+  } catch (err) { // catch errors
+    console.log(err) // console log the error
+    res.redirect('/fail') // redirect to fail page
   }
 })
 
