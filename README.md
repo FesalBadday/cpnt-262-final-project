@@ -15,4 +15,5 @@
 * Who finish their part can help others as well
   
 ### Attributions
-- 
+- [Auth0](https://www.youtube.com/watch?v=vdFQJRVGHYM) For learning how to use EJS.
+- [stackoverflow](https://stackoverflow.com/questions/17911228/how-do-i-use-html-as-the-view-engine-in-express) Learned how to use HTML as the view engine insted of ejs.
