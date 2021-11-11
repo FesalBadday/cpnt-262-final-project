@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="css/main.css">
   <script src="js/client.js" defer></script>
 </head>
-
 <body>
   <header>
     <!--Global Navigation-->
@@ -23,7 +22,33 @@
     </nav>
   </header>
   <main>
-
+    <div class="form-section">
+      <form action="" method="POST">
+      <h1>Sign up for Exclusive Deals</h1>
+        <fieldset>
+          <label class="label-box"><strong>Email</strong></label>
+            <input class="input-box" type="text" name="Email" required>
+          <label class="label-box"><strong>Name</strong></label>
+            <input class="input-box" type="text" name="Name" required>
+        </fieldset>
+      <h2>Preferred Platform</h2>
+        <fieldset>
+          <ul>
+            <li><label>PC</label>
+              <input type="radio" name="option"></li>
+            <li><label>PS5</label>
+              <input type="radio" name="option"></li>
+            <li><label>Xbox</label>
+              <input type="radio" name="option"></li>
+            <li><label>Nintendo Switch</label>
+              <input type="radio" name="option"></li>
+            <li><label>Other</label>
+              <input type="radio" name="option"></li>
+          </ul>
+        </fieldset>
+        <button class="submit-button" type="submit"><strong>Sign Up</strong></button>
+      </form>
+    </div>
   </main>
   <footer class="footer-section">
     <p class="footer-text">Matrix Squad &copy;2021</p>
