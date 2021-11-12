@@ -7,16 +7,18 @@ const fetchData = async () => {
     let link = null;
 
     // check what data is needed from link bar
-    if (window.location.pathname === '/subscriber') {
-      link = 'subs';
+    if (window.location.pathname === '/subscribe') {
+      link = '/subs';
     } else if (window.location.pathname === '/team') {
-      link = 'member';
+      link = '/member';
+    } else if (window.location.pathname === '/store') {
+      link = '/games';
     } else {
-      link = 'games';
+      link = `/games/${window.location.pathname.split("/").pop()}`; // get game id
     }
 
     // fetch data
-    const response = await fetch(`/${link}`);
+    const response = await fetch(link);
     // data variable
     let data = null;
 
@@ -34,19 +36,22 @@ const fetchData = async () => {
     // output variable
     let output = '';
 
-    // for loop to build the data
-    data.forEach((info) => {
-
-      // check what data is needed from link bar
-      if (window.location.pathname === '/store') {
-        output += info.width;
-      } else if (window.location.pathname === '/team') {
-        output += info.profilePic;
-      } else {
-        output += info.email;
-      }
-      console.log(output);
-    })
+    // check if data isn't undefined and it's an array
+    if (typeof data !== 'undefined' && Array.isArray(data)) {
+      // for loop to build the data
+      data.forEach((info) => {
+        // check what data is needed from link bar
+        if (window.location.pathname === '/subscribe') {
+          output += info.email;
+        } else if (window.location.pathname === '/team') {
+          output += info.profilePic;
+        } else {
+          output += info.width;
+        }
+      })
+    } else {
+      output = 'Data Not Found';
+    }
 
     // print output and date
     dataSection.innerHTML = output;
