@@ -21,6 +21,10 @@ router.get('/store', (req, res) => {
   res.render('store')
 })
 
+router.get('/store/:id', (req, res) => {
+  res.render('store')
+})
+
 router.get('/subscribe', (req, res) => {
   res.render('subscribe')
 })
@@ -37,6 +41,23 @@ router.get('/404', (req, res) => {
 router.get('/games', async (req, res) => {
   try {
     res.json(await Store.find()) // find all data
+  } catch (err) { // catch errors
+    console.log(err) // console log the error
+    res.send({ error: 'Data Not Found' }) // send JSON 404 error
+  }
+})
+
+// get game based on id
+router.get('/games/:id', async (req, res) => {
+  try {
+    const data = await Store.find({ id: req.params.id })
+
+    if (data.length !== 0) { // check if mongoose data existest
+      res.json(data) // find 1 game based on id
+    } else { // else
+      res.send({ error: 'Game Not Found' }) // send JSON 404 error
+    }
+
   } catch (err) { // catch errors
     console.log(err) // console log the error
     res.send({ error: 'Data Not Found' }) // send JSON 404 error
