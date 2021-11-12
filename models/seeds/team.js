@@ -1,6 +1,6 @@
 module.exports = [{
   name: 'Fesal Badday',
-  profilePic: 'assets/images/fesal-pic.jpg',
+  profilePic: 'assets/images/fesal-github.jpg',
   title: 'Owner',
   bio: 'Bio goes here',
   github: 'https://github.com/FesalBadday',
@@ -9,7 +9,7 @@ module.exports = [{
 
 {
   name: 'Lucas Cummings',
-  profilePic: 'assets/images/lucas-pic.jpg',
+  profilePic: 'assets/images/lucas-github.jpg',
   title: 'Contributor',
   bio: 'Bio goes here',
   github: 'https://github.com/lucas-cq',
@@ -18,7 +18,7 @@ module.exports = [{
 
 {
   name: 'Raj Hunjan',
-  profilePic: 'assets/images/raj-pic.jpg',
+  profilePic: 'assets/images/raj-github.jpg',
   title: 'Contributor',
   bio: 'Bio goes here',
   github: 'https://github.com/Raj-Hunjan',
@@ -27,7 +27,7 @@ module.exports = [{
 
 {
   name: 'Hyeju Helena Hong',
-  profilePic: 'assets/images/hyeju-pic.jpg',
+  profilePic: 'assets/images/hyeju-github.jpg',
   title: 'Contributor',
   bio: 'Bio goes here',
   github: 'https://github.com/Hyeju1996',
