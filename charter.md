@@ -3,8 +3,8 @@
 ## HTML
 * index.html: Lucas :heavy_check_mark:
 * subscribe.html: Lucas :heavy_check_mark:
-* gallery.html: Raj
-* item.html: Raj
+* store.html: Raj
+* item.html: Raj <!--Item will be made in JS ask Fesal for details-->
 * team.html: Lucas
 
 ## CSS
