@@ -37,6 +37,24 @@ body {
   margin: 0px auto;
 }
 
+/* *************** */
+/* Gallery Section */
+/* *************** */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: ghostwhite;
+  width: 220px;
+  height: 400px;
+  margin: 10px;
+}
+
+
+
 /* ****** */
 /* Footer */
 /* ****** */
