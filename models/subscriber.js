@@ -7,6 +7,7 @@ const subscriberSchema = new mongoose.Schema({
     type: String,
     unique: true
   },
+  platform: String,
   dateSigned: {
     type: String,
     default: new Date().toISOString().split('T')[0]
