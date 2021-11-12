@@ -15,7 +15,7 @@
 * Who finish their part can help others as well
 
 ## Information
-- I managed to get the view engine to work and instead of using the views folder I just added all the pages in public, I've also changed the view template from .ejs to .html.
+- For the fancy feature, we went with the EJS view engine, I have managed to get the view engine to work and instead of using the views folder I just added all of the pages inside public because I did not like the idea of adding the pages in another folder than public, I have also changed the view template from .ejs to .html. because from what I have read is that .ejs does not support everything .html does. 
 
 - The views getting the pages from public
 ```js
