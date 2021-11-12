@@ -44,7 +44,16 @@ const fetchData = async () => {
         if (window.location.pathname === '/subscribe') {
           output += info.email;
         } else if (window.location.pathname === '/team') {
-          output += info.profilePic;
+          document.querySelector('.team-card')
+          output += `
+          <img src="${info.profilePic}" alt="${info.name}">
+          <h2>${info.name}</h2>
+          <p>${info.title}<p>
+          <p>${info.bio}</p>
+          <p><a href="${info.github}">Github</a></p>
+          <p>Date Created: ${info.dateCreated}</p>
+          `
+
         } else {
           output += info.width;
         }
