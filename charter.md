@@ -1,8 +1,8 @@
 # Matrix Squad Group Charter
 
 ## HTML
-* index.html: Lucas
-* subscribe.html: Lucas
+* index.html: Lucas :heavy_check_mark:
+* subscribe.html: Lucas :heavy_check_mark:
 * gallery.html: Raj
 * item.html: Raj
 * team.html: Lucas
