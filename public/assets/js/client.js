@@ -69,7 +69,7 @@ const fetchData = async () => {
         }
       })
     } else {
-      output = 'Data Not Found';
+      output = data.error;
     }
 
     // print output and date
