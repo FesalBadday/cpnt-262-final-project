@@ -90,7 +90,7 @@ router.post('/subscribe', async (req, res) => {
     const newSub = new Subscriber(req.body)
 
     await newSub.save() // save user
-    res.redirect('/subscribe') // redirect to success page
+    res.redirect('/success') // redirect to success page
     console.log(newSub)
 
   } catch (err) { // catch errors
