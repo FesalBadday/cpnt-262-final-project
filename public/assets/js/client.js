@@ -46,12 +46,14 @@ const fetchData = async () => {
         } else if (window.location.pathname === '/team') {
           document.querySelector('.data')
           output += `
-          <img src="${info.profilePic}" alt="${info.name}">
+          <div class="profile-card">
+          <img class="profile-pic" src="${info.profilePic}" alt="${info.name}">
           <h2>${info.name}</h2>
           <p>${info.title}<p>
           <p>${info.bio}</p>
           <p><a href="${info.github}">Github</a></p>
-          <p>Unplugged: ${info.dateCreated}</p>
+          <p class="end-card">Unplugged: ${info.dateCreated}</p>
+          </div>
           `
         } else {
           output += info.width;
