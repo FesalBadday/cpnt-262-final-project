@@ -33,12 +33,8 @@ router.get('/team', (req, res) => {
   res.render('team')
 })
 
-router.get('/success', (req, res) => {
-  res.render('success')
-})
-
-router.get('/fail', (req, res) => {
-  res.render('fail')
+router.get('/admin', (req, res) => {
+  res.render('index')
 })
 
 router.get('/404', (req, res) => {
@@ -48,7 +44,14 @@ router.get('/404', (req, res) => {
 // get store data
 router.get('/games', async (req, res) => {
   try {
-    res.json(await Store.find()) // find all data
+    const data = await Store.find() // find all data
+
+    if (data.length !== 0) { // check if mongoose data existest
+      res.json(data) // find 1 game based on id
+    } else { // else
+      res.send({ error: 'Games Not Found' }) // send JSON 404 error
+    }
+
   } catch (err) { // catch errors
     console.log(err) // console log the error
     res.send({ error: 'Data Not Found' }) // send JSON 404 error
