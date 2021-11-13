@@ -34,7 +34,7 @@ router.get('/team', (req, res) => {
 })
 
 router.get('/admin', (req, res) => {
-  res.render('index')
+  res.render('admin/index')
 })
 
 router.get('/404', (req, res) => {
@@ -101,15 +101,15 @@ router.post('/subscribe', async (req, res) => {
     const newSub = new Subscriber(req.body)
 
     await newSub.save() // save user
-    res.redirect('/success') // redirect to success page
+    res.send('<h1>Congratulations, You’ve Subscribed Successfully!</h1><a href="subscribe">Click Here To Go Back</a>')
     console.log(newSub)
 
   } catch (err) { // catch errors
     // check if user is subscribed
     if (err.code === 11000) {
-      res.send('<h1>You’re Already Subscribed!</h1>')
+      res.send('<h1>You’re Already Subscribed!</h1><a href="subscribe">Click Here To Go Back</a>')
     } else {
-      res.redirect('/fail') // redirect to fail page
+      res.send('<h1>Something Went Wrong!</h1><a href="subscribe">Click Here To Go Back</a>')
     }
     console.log(err) // console log the error
   }
