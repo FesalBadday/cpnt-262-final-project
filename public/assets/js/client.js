@@ -44,27 +44,28 @@ const fetchData = async () => {
         if (window.location.pathname === '/subscribe') {
           output += info.email;
         } else if (window.location.pathname === '/team') {
-          document.querySelector('.data')
-          output += `
-          <div class="profile-card">
-          <img class="profile-pic" src="${info.profilePic}" alt="${info.name}">
-          <h2>${info.name}</h2>
-          <p>${info.title}<p>
-          <p>${info.bio}</p>
-          <p><a href="${info.github}">Github</a></p>
-          <p class="end-card">Unplugged: ${info.dateCreated}</p>
-          </div>
+          output += 
+          `
+            <div class="profile-card">
+              <img class="profile-pic" src="${info.profilePic}" alt="${info.name}">
+              <h2>${info.name}</h2>
+              <p>${info.title}<p>
+              <p>${info.bio}</p>
+              <p><a href="${info.github}">Github</a></p>
+              <p class="end-card">Unplugged: ${info.dateCreated}</p>
+            </div>
           `
         } else {
-          output += `
-          <article class="styles">
-          <img src="${info.imageSrc}" alt="${info.title}">
-          <div class ="text">
-          <h3>${info.title}</h3>
-          <p>${info.description}<p>
-          <button>button</button>
-          </article>
+          output += 
           `
+            <article class="styles">
+              <img src="${info.imageSrc}" alt="${info.title}">
+              <div class ="text">
+              <h3>${info.title}</h3>
+              <p>${info.description}<p>
+              <button>button</button>
+            </article>
+          `;
         }
       })
     } else {
