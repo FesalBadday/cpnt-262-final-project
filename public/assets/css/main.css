@@ -41,18 +41,52 @@ body {
 /* Gallery Section */
 /* *************** */
 
-.container {
-  display: flex;
-  justify-content: center;
-}
-
 .card {
-  background-color: ghostwhite;
-  width: 220px;
-  height: 400px;
-  margin: 10px;
+  margin: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* ask for help */
+  grid-gap: 30px;
+  align-items: center;
 }
 
+.card > .styles {
+  background: ghostwhite;
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+  transition: transform .3s;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.card > .styles:hover {
+  transform: translateY(5px);
+  box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.3);
+}
+
+.card > .styles img {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.text {
+  padding: 0 20px 20px;
+}
+
+.text h3 {
+  text-transform: uppercase;
+}
+
+.text button {
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
 
 
 /* ****** */

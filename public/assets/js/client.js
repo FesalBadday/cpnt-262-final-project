@@ -54,7 +54,15 @@ const fetchData = async () => {
           <p>Unplugged: ${info.dateCreated}</p>
           `
         } else {
-          output += info.width;
+          output += `
+          <article class="styles">
+          <img src="${info.imageSrc}" alt="${info.title}">
+          <div class ="text">
+          <h3>${info.title}</h3>
+          <p>${info.description}<p>
+          <button>button</button>
+          </article>
+          `
         }
       })
     } else {
