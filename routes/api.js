@@ -102,8 +102,13 @@ router.post('/subscribe', async (req, res) => {
     console.log(newSub)
 
   } catch (err) { // catch errors
+    // check if user is subscribed
+    if (err.code === 11000) {
+      res.send('<h1>You’re Already Subscribed!</h1>')
+    } else {
+      res.redirect('/fail') // redirect to fail page
+    }
     console.log(err) // console log the error
-    res.redirect('/fail') // redirect to fail page
   }
 })
 
