@@ -33,6 +33,14 @@ router.get('/team', (req, res) => {
   res.render('team')
 })
 
+router.get('/success', (req, res) => {
+  res.render('success')
+})
+
+router.get('/fail', (req, res) => {
+  res.render('fail')
+})
+
 router.get('/404', (req, res) => {
   res.render('404')
 })
