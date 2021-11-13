@@ -37,3 +37,8 @@ app.set('views', path.join(__dirname, 'public'))
 app.engine('html', require('ejs').renderFile)
 app.set('view engine', 'html')
 ```
+
+- [Computer icon](https://icons8.com/icon/WgoCO0QKt9bJ/computer) By [Vitaly Gorbachev](https://icons8.com/icons/authors/ttX1M9NnKB7X/vitaly-gorbachev) From [Icons8](https://www.icons8.com). [License](https://www.icons8.com/license)
+- [PlayStation icon](https://icons8.com/icon/12519/playstation) From [Icons8](https://www.icons8.com). [License](https://www.icons8.com/license)
+- [Xbox icon](https://icons8.com/icon/12504/xbox) From [Icons8](https://www.icons8.com). [License](https://www.icons8.com/license)
+- [Nintendo Switch icon](https://icons8.com/icon/XaIQdSh4y3F9/nintendo-switch-logo) From [Icons8](https://www.icons8.com). [License](https://www.icons8.com/license)
