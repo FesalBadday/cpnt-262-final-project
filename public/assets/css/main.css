@@ -113,7 +113,15 @@ a.logo div span {
   cursor: pointer;
 }
 
+@media (max-width: 500px){
+    .card{
+        grid-template-columns: repeat(1, 1fr);
+    }
 
+    .card > .styles{
+        text-align: center;
+    }
+}
 
 /* ****** */
 
