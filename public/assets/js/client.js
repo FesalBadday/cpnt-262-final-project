@@ -41,13 +41,12 @@ const fetchData = async () => {
       // for loop to build the data
       data.forEach((info) => {
         // check what data is needed from link bar
-        if (window.location.pathname === '/subscribe') {
+        if (window.location.pathname === '/admin') {
           output +=
             `<div class="sub-card">
-              
-            </div>
-          ` //info.email;
-
+              <h2>Name : ${info.name}</h2>
+              <h3>Email : ${info.email}</h3> 
+            </div>`
 
         } else if (window.location.pathname === '/team') {
           output +=
