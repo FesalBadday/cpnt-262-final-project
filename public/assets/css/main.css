@@ -65,8 +65,6 @@ a.logo div span {
 
 
 /* *************** */
-
-<<<<<<< HEAD
 .card {
   margin: 80px;
   display: grid;
@@ -88,18 +86,6 @@ a.logo div span {
 .card > .styles:hover {
   transform: translateY(5px);
   box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.3);
-=======
-.container {
-    display: flex;
-    justify-content: center;
-}
-
-.card {
-    background-color: ghostwhite;
-    width: 220px;
-    height: 400px;
-    margin: 10px;
->>>>>>> efe96c7ad6b840cd0e5fe316a2f24695b4821d30
 }
 
 .card > .styles img {
