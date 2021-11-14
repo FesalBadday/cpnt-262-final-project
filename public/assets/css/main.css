@@ -1,8 +1,6 @@
 /* ********** */
 
-
 /* Navigation */
-
 
 /* ********** */
 
@@ -10,7 +8,6 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-
 
 /*logo*/
 
@@ -57,77 +54,71 @@ a.logo div span {
     margin: 0 10px;
 }
 
-
 /* *************** */
 
-
 /* Gallery Section */
-
 
 /* *************** */
 
 .card {
-  margin: 80px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
-  align-items: center;
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
 }
 
-.card > .styles {
-  background: ghostwhite;
-  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
-  transition: transform .3s;
-  border: none;
-  border-radius: 20px;
-  text-align: center;
-  width: 250px;
+.card>.styles {
+    background: ghostwhite;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    transition: transform .3s;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 250px;
 }
 
-.card > .styles:hover {
-  transform: translateY(5px);
-  box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.3);
+.card>.styles:hover {
+    transform: translateY(5px);
+    box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
 }
 
-.card > .styles img {
-  width: 100%;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+.card>.styles img {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .text {
-  padding: 0 20px 20px;
+    padding: 0 20px 20px;
 }
 
 .text h3 {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .text button {
-  border-radius: 20px;
-  border: none;
-  padding: 10px;
-  width: 100%;
-  font-weight: 600;
-  text-transform: uppercase;
-  cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
     .card {
         grid-template-columns: repeat(1, 1fr);
     }
-
-    .card > .styles {
+    .card>.styles {
         text-align: center;
     }
 }
 
 /* ****** */
 
-
 /* Footer */
-
 
 /* ****** */
 
@@ -143,12 +134,9 @@ a.logo div span {
     padding: 10px;
 }
 
-
 /* **** */
 
-
 /* Hero */
-
 
 /* **** */
 
@@ -169,12 +157,9 @@ a.logo div span {
     color: black;
 }
 
-
 /* ******* */
 
-
 /* Article */
-
 
 /* ******* */
 
@@ -198,12 +183,9 @@ a.logo div span {
     margin-bottom: 20rem;
 }
 
-
 /* ************ */
 
-
 /* Form Section */
-
 
 /* ************ */
 
@@ -213,8 +195,7 @@ a.logo div span {
     align-items: center;
 }
 
-.form-section h1,
-h2 {
+.form-section h1, h2 {
     text-align: center;
 }
 
@@ -248,42 +229,65 @@ fieldset .label-box {
     padding: 10px;
 }
 
+.platform [type="radio"]+img {
+    cursor: pointer;
+}
+
+.platform [type="radio"]:checked+img {
+    outline: 4px solid #168a07;
+}
+
+.platform ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.platform img {
+    width: 65px;
+}
+
+.platform [type="radio"] {
+    display: none;
+}
 
 /* ************ */
+
 /* Team Section */
+
 /* ************ */
 
 .data {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  margin: 5rem auto 10rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 5rem auto 10rem auto;
 }
 
 .profile-pic {
-  margin: 0 auto;
-  max-width: 300px;
-  border-radius: 150px;
+    margin: 0 auto;
+    max-width: 300px;
+    border-radius: 150px;
 }
 
 .main-header {
-  font-size: 40px;
-  text-align: center;
+    font-size: 40px;
+    text-align: center;
 }
 
 .profile-card {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  min-width: 300px;
-  max-width: 300px;
-  background-color: #7ebf60;
-  box-shadow: 20px 20px 15px grey;
-  border-radius: 25px;
-  margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    max-width: 300px;
+    background-color: #7ebf60;
+    box-shadow: 20px 20px 15px grey;
+    border-radius: 25px;
+    margin: 0 auto;
 }
 
 .end-card {
-  margin: auto auto 5rem auto;
+    margin: auto auto 5rem auto;
 }
