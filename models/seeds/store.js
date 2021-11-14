@@ -6,8 +6,8 @@ module.exports = [{
   description: 'Check out what free!',
   imageSrc: '/assets/images/sm/image1.jpg',
   // https://www.pexels.com/photo/person-holding-sony-ps4-controller-1174597/
-  width: 200,
-  height: 200
+  width: 250,
+  height: 167
 },
 
 {
@@ -16,8 +16,8 @@ module.exports = [{
   description: 'Get a look at new games coming soon!',
   imageSrc: '/assets/images/sm/image2.jpg',
   // https://www.pexels.com/photo/flat-screen-computer-monitor-3977908/
-  width: 200,
-  height: 200
+  width: 250,
+  height: 167
 },
 
 {
@@ -26,8 +26,8 @@ module.exports = [{
   description: 'Action packed games!',
   imageSrc: '/assets/images/sm/image3.jpg',
   // https://unsplash.com/photos/nmTm7knUnqs
-  width: 200,
-  height: 200
+  width: 250,
+  height: 167
 },
 
 {
@@ -36,8 +36,8 @@ module.exports = [{
   description: 'Top selling adventure games!',
   imageSrc: '/assets/images/sm/image4.jpg',
   // https://unsplash.com/photos/-HuMEdCPM0U
-  width: 200,
-  height: 200
+  width: 250,
+  height: 167
 },
 
 {
@@ -46,8 +46,8 @@ module.exports = [{
   description: 'Browse our indie collection!',
   imageSrc: '/assets/images/sm/image5.jpg',
   // https://unsplash.com/photos/hzad7o11p5I
-  width: 200,
-  height: 200
+  width: 250,
+  height: 167
 },
 
 {
@@ -56,8 +56,8 @@ module.exports = [{
   description: 'Amazing racing games!',
   imageSrc: '/assets/images/sm/image6.jpg',
   // https://unsplash.com/photos/HZrcqdS9IEU
-  width: 200,
-  height: 200
+  width: 250,
+  height: 167
 },
 
 {
@@ -66,8 +66,8 @@ module.exports = [{
   description: 'The best RPGs right here!',
   imageSrc: '/assets/images/sm/image7.jpg',
   // https://unsplash.com/photos/Bp_-zo3Nl28
-  width: 200,
-  height: 200
+  width: 250,
+  height: 167
 },
 
 {
@@ -76,8 +76,8 @@ module.exports = [{
   description: 'Best selling sports games right here!',
   imageSrc: '/assets/images/sm/image8.jpg',
   // https://unsplash.com/photos/1b6LfEIL7CY
-  width: 200,
-  height: 200
+  width: 250,
+  height: 167
 },
 
 {
@@ -86,6 +86,6 @@ module.exports = [{
   description: 'Best strategy games for you!',
   imageSrc: '/assets/images/sm/image9.jpg',
   // https://unsplash.com/photos/EHLd2utEf68
-  width: 200,
-  height: 200
+  width: 250,
+  height: 167
 }]
