@@ -43,6 +43,8 @@ app.set('view engine', 'html')
 - [Xbox icon](https://icons8.com/icon/12504/xbox) From [Icons8](https://www.icons8.com). [License](https://www.icons8.com/license)
 - [Nintendo Switch icon](https://icons8.com/icon/XaIQdSh4y3F9/nintendo-switch-logo) From [Icons8](https://www.icons8.com). [License](https://www.icons8.com/license)
 - [Used this video for the cards in the store page](https://www.youtube.com/watch?v=HR-Jg3xSQRc&t=96s) by [CSS CODER](https://www.youtube.com/channel/UChWD0lOFgiQ8C_pB3Ldac9g).
+- []()
+- []()
 - [Person holding controller](https://www.pexels.com/photo/person-holding-sony-ps4-controller-1174597/) by [EVG Culture](https://www.pexels.com/@evgphotos).
 - [Person playing minecraft](https://www.pexels.com/photo/flat-screen-computer-monitor-3977908/) by [Alexander Kovalev](https://www.pexels.com/@alscre).
 - [Monitor showing COD warzone](https://unsplash.com/photos/nmTm7knUnqs) by [Fábio Silva](https://unsplash.com/@tamarisco).
