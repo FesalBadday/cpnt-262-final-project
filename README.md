@@ -44,11 +44,11 @@ app.set('view engine', 'html')
 - [Nintendo Switch icon](https://icons8.com/icon/XaIQdSh4y3F9/nintendo-switch-logo) From [Icons8](https://www.icons8.com). [License](https://www.icons8.com/license)
 - [Used this video for the cards in the store page](https://www.youtube.com/watch?v=HR-Jg3xSQRc&t=96s) by [CSS CODER](https://www.youtube.com/channel/UChWD0lOFgiQ8C_pB3Ldac9g).
 - [Person holding controller](https://www.pexels.com/photo/person-holding-sony-ps4-controller-1174597/) by [EVG Culture](https://www.pexels.com/@evgphotos).
-- []() by []()
-- []() by []()
-- []() by []()
-- []() by []()
-- []() by []()
-- []() by []()
-- []() by []()
-- []() by []()
+- [Person playing minecraft](https://www.pexels.com/photo/flat-screen-computer-monitor-3977908/) by [Alexander Kovalev](https://www.pexels.com/@alscre).
+- [Monitor showing COD warzone](https://unsplash.com/photos/nmTm7knUnqs) by [Fábio Silva] (https://unsplash.com/@tamarisco)
+- [Person holding nintendo switch controller](https://unsplash.com/photos/-HuMEdCPM0U) by [Ke Vin](https://unsplash.com/@cactuspix.)
+- [Nintendo switch](https://unsplash.com/photos/hzad7o11p5I) by [Sara Kurfeß](https://unsplash.com/@stereophototyp)
+- [Race car](https://unsplash.com/photos/HZrcqdS9IEU) by [Karo Kujanpaa](https://unsplash.com/@karographix).
+- [Monitor showing Cyberpunk](https://unsplash.com/photos/Bp_-zo3Nl28) by [MEAX PROD](https://unsplash.com/@meaxprod).
+- [two Ps4 controllers](https://unsplash.com/photos/1b6LfEIL7CY) by [Igor Karimov](https://unsplash.com/@ingvar_erik).
+- [Person playing some game on pc](https://unsplash.com/photos/EHLd2utEf68) by [https://unsplash.com/@everywheresean](Sean Do).
