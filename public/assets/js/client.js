@@ -58,13 +58,18 @@ const fetchData = async () => {
         } else {
           output += 
           `
+        <main class="container">
+          <div class="card">
             <article class="styles">
               <img src="${info.imageSrc}" alt="${info.title}">
               <div class ="text">
               <h3>${info.title}</h3>
               <p>${info.description}<p>
+              </div>
               <button>button</button>
             </article>
+          </div>
+        </main>
           `;
         }
       })
