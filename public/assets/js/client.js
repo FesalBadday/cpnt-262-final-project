@@ -44,33 +44,39 @@ const fetchData = async () => {
         if (window.location.pathname === '/subscribe') {
           output += info.email;
         } else if (window.location.pathname === '/team') {
-          output += 
-          `
-            <div class="profile-card">
+          output +=
+            `<div class="profile-card">
               <img class="profile-pic" src="${info.profilePic}" alt="${info.name}">
               <h2>${info.name}</h2>
               <p>${info.title}<p>
               <p>${info.bio}</p>
               <p><a href="${info.github}">Github</a></p>
               <p class="end-card">Unplugged: ${info.dateCreated}</p>
-            </div>
-          `
+            </div>`
+        } else if (window.location.pathname === '/store') {
+          output +=
+            `<div class="card">
+              <article class="styles">
+                <a href="store/${info.id}">
+                  <img src="${info.imageSrc}" alt="${info.title}" width="${info.width}" height="${info.height}">
+                </a>
+                <div class ="text">
+                <h3>${info.title}</h3>
+                <p>${info.description}<p>
+                </div>
+              </article>
+            </div>`;
         } else {
-          output += 
-          `
-        <main class="container">
-          <div class="card">
-            <article class="styles">
-              <img src="${info.imageSrc}" alt="${info.title}">
-              <div class ="text">
-              <h3>${info.title}</h3>
-              <p>${info.description}<p>
-              </div>
-              <button>button</button>
-            </article>
-          </div>
-        </main>
-          `;
+          output +=
+            `<div class="card">
+              <article class="styles">
+                <img src="${info.imageSrc}" alt="${info.title}" width="${info.width}" height="${info.height}">
+                <div class ="text">
+                <h3>${info.title}</h3>
+                <p>${info.description}<p>
+                </div>
+              </article>
+            </div>`;
         }
       })
     } else {
