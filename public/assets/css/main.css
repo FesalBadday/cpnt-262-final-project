@@ -50,8 +50,8 @@ body {
     color: white;
 }
 
-a.logo div span {
-    margin: 0 10px;
+.logo {
+    margin: 15px 10px;
 }
 
 /* *************** */
@@ -216,7 +216,7 @@ fieldset .label-box {
 
 .submit-button {
     display: block;
-    margin: 20px auto 8rem auto;
+    margin: 20px auto 14rem auto;
     font-size: 20px;
     padding: 10px;
 }
