@@ -74,7 +74,7 @@ const fetchData = async () => {
             </div>`;
         } else {
           output += `
-            <div class="card">
+            <div class="card-ind">
               <article class="styles">
                 <img src="${info.imageSrc}" alt="${info.title}" width="${info.width}" height="${info.height}">
                 <div class ="text">
