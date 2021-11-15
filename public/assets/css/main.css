@@ -143,10 +143,22 @@ body {
     font-size: 40px;
 }
 
-.hero-button a {
-    font-size: 20px;
-    text-decoration: none;
+.hero-contain button {
+    font-size: 30px;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    padding: 10px;
+    border-radius: 20px;
     color: black;
+    background-color: whitesmoke;
+    border-style: none;
+    transition-duration: 0.4s;
+    border: 3px solid #7ebf60;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #aef7a6;
 }
 
 /* ******* */
