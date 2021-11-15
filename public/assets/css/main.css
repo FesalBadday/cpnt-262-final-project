@@ -69,7 +69,7 @@ a.logo div span {
     cursor: pointer;
 }
 
-.card > .styles {
+.card>.styles {
     background: ghostwhite;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
     transition: transform .3s;
@@ -79,12 +79,12 @@ a.logo div span {
     width: 250px;
 }
 
-.card > .styles:hover {
+.card>.styles:hover {
     transform: translateY(5px);
     box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
 }
 
-.card > .styles img {
+.card>.styles img {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -104,7 +104,7 @@ a.logo div span {
     .card {
         grid-template-columns: repeat(1, 1fr);
     }
-    .card > .styles {
+    .card>.styles {
         text-align: center;
     }
 }
@@ -286,5 +286,25 @@ fieldset .label-box {
 }
 
 /* ************** */
+
 /* Subscribe List */
+
 /* ************** */
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    color: #f8f8ff;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+th, td {
+    border: 2px solid #167909;
+}
+
+th {
+    background-color: #167909;
+    padding: .8rem;
+}
