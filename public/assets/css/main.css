@@ -97,15 +97,7 @@ a.logo div span {
     text-transform: uppercase;
 }
 
-.text button {
-    border-radius: 20px;
-    border: none;
-    padding: 10px;
-    width: 100%;
-    font-weight: 600;
-    text-transform: uppercase;
-    cursor: pointer;
-}
+/* For responsive cards */
 
 @media (max-width: 500px) {
     .card {
