@@ -48,7 +48,8 @@ const fetchData = async () => {
             <p>${info.email}</p>
             <p>${info.platform}</p>
             <p>${info.dateSigned}</p>
-            </div>`
+            </div>
+            `
         } else if (window.location.pathname === '/team') {
           output +=
             `
@@ -59,7 +60,8 @@ const fetchData = async () => {
               <p>${info.bio}</p>
               <p><a href="${info.github}">Github</a></p>
               <p class="end-card">Unplugged: ${info.dateCreated}</p>
-            </div>`
+            </div>
+            `
         } else if (window.location.pathname === '/store') {
           output +=
             `
@@ -77,7 +79,8 @@ const fetchData = async () => {
             `;
         } else {
           output +=
-            `<div class="card">
+            `
+            <div class="card">
               <article class="styles">
                 <img src="${info.imageSrc}" alt="${info.title}" width="${info.width}" height="${info.height}">
                 <div class ="text">
@@ -85,7 +88,8 @@ const fetchData = async () => {
                 <p>${info.description}<p>
                 </div>
               </article>
-            </div>`;
+            </div>
+            `;
         }
       })
     } else {
