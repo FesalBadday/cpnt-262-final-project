@@ -1,4 +1,4 @@
-// Gaming genres
+// Gaming genres for store page
 
 module.exports = [{
   id: 1,
