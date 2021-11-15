@@ -41,7 +41,7 @@ const fetchData = async () => {
       // for loop to build the data
       data.forEach((info) => {
         // check what data is needed from link bar
-        if (window.location.pathname === '/admin') {
+        if (window.location.pathname === '/admin') { //Displays admin.html
           output += `
               <tr>
                 <td>${info.name}</td>
@@ -49,7 +49,7 @@ const fetchData = async () => {
                 <td><img src="/assets/images/platform/${info.platform}.png" alt="${info.platform}" width="46"></td>
                 <td>${info.dateSigned}</td>
               </tr>`;
-        } else if (window.location.pathname === '/team') {
+        } else if (window.location.pathname === '/team') { //Displays team.html
           output += `
             <div class="profile-card">
               <img class="profile-pic" src="${info.profilePic}" alt="${info.name}">
@@ -59,7 +59,7 @@ const fetchData = async () => {
               <p><a href="${info.github}">Github</a></p>
               <p class="end-card">Unplugged: ${info.dateCreated}</p>
             </div>`;
-        } else if (window.location.pathname === '/store') {
+        } else if (window.location.pathname === '/store') { //Displays store.html
           output += `
             <div class="card">
               <article class="styles">

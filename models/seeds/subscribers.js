@@ -1,3 +1,5 @@
+// Mongoose Subcriber Array
+
 module.exports = [{
   name: 'Fesal Badday',
   email: 'fesal@email.com',

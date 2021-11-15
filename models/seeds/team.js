@@ -1,3 +1,5 @@
+// Mongoose Team Array
+
 module.exports = [{
   name: 'Fesal Badday',
   profilePic: 'assets/images/fesal-github.jpg',
