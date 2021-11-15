@@ -61,14 +61,15 @@ a.logo div span {
 /* *************** */
 
 .card {
-    margin: 80px;
+    margin: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     align-items: center;
+    cursor: pointer;
 }
 
-.card>.styles {
+.card > .styles {
     background: ghostwhite;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
     transition: transform .3s;
@@ -78,12 +79,12 @@ a.logo div span {
     width: 250px;
 }
 
-.card>.styles:hover {
+.card > .styles:hover {
     transform: translateY(5px);
     box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
 }
 
-.card>.styles img {
+.card > .styles img {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -97,21 +98,13 @@ a.logo div span {
     text-transform: uppercase;
 }
 
-.text button {
-    border-radius: 20px;
-    border: none;
-    padding: 10px;
-    width: 100%;
-    font-weight: 600;
-    text-transform: uppercase;
-    cursor: pointer;
-}
+/* For responsive cards */
 
 @media (max-width: 500px) {
     .card {
         grid-template-columns: repeat(1, 1fr);
     }
-    .card>.styles {
+    .card > .styles {
         text-align: center;
     }
 }
