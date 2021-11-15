@@ -17,7 +17,7 @@
 ## Information
 - For the fancy feature, we went with the EJS view engine. There is no need to add .html in the link anymore, simply just type the name of the file and it should render normally, example of that would be:
 ```
-[https://cpnt-262-final-project.herokuapp.com/admin](https://cpnt-262-final-project.herokuapp.com/admin)
+https://cpnt-262-final-project.herokuapp.com/admin
 ```
 instead of
 ```
@@ -25,7 +25,7 @@ https://cpnt-262-final-project.herokuapp.com/admin/index.html
 ```
 
 ```
-[https://cpnt-262-final-project.herokuapp.com/admin](https://cpnt-262-final-project.herokuapp.com/subscribe)
+https://cpnt-262-final-project.herokuapp.com/admin
 ```
 instead of
 ```
