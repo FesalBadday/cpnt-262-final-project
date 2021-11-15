@@ -42,16 +42,15 @@ const fetchData = async () => {
       data.forEach((info) => {
         // check what data is needed from link bar
         if (window.location.pathname === '/admin') {
-          output +=
-            `<div>
-            <p>${info.name}</p>
-            <p>${info.email}</p>
-            <p>${info.platform}</p>
-            <p>${info.dateSigned}</p>
-            </div>`
+          output += `
+              <tr>
+                <td>${info.name}</td>
+                <td>${info.email}</td>
+                <td><img src="/assets/images/platform/${info.platform}.png" alt="${info.platform}" width="46"></td>
+                <td>${info.dateSigned}</td>
+              </tr>`;
         } else if (window.location.pathname === '/team') {
-          output +=
-            `
+          output += `
             <div class="profile-card">
               <img class="profile-pic" src="${info.profilePic}" alt="${info.name}">
               <h2>${info.name}</h2>
@@ -59,10 +58,9 @@ const fetchData = async () => {
               <p>${info.bio}</p>
               <p><a href="${info.github}">Github</a></p>
               <p class="end-card">Unplugged: ${info.dateCreated}</p>
-            </div>`
+            </div>`;
         } else if (window.location.pathname === '/store') {
-          output +=
-            `
+          output += `
             <div class="card">
               <article class="styles">
                 <a href="store/${info.id}">
@@ -73,11 +71,10 @@ const fetchData = async () => {
                 <p>${info.description}<p>
                 </div>
               </article>
-            </div>
-            `;
+            </div>`;
         } else {
-          output +=
-            `<div class="card">
+          output += `
+            <div class="card">
               <article class="styles">
                 <img src="${info.imageSrc}" alt="${info.title}" width="${info.width}" height="${info.height}">
                 <div class ="text">
@@ -93,7 +90,7 @@ const fetchData = async () => {
     }
 
     // print output and date
-    dataSection.innerHTML = output;
+    dataSection.innerHTML += output;
 
   } catch (err) { // catch errors
     console.log('Caught an error!', err); // console log the error
