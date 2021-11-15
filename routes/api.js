@@ -96,7 +96,7 @@ router.get('/member', async (req, res) => {
 })
 
 // add new subscriber
-router.post('/subscribe', async (req, res) => {
+router.post('/join', async (req, res) => {
   try {
     const newSub = new Subscriber(req.body)
 
