@@ -25,7 +25,7 @@ https://cpnt-262-final-project.herokuapp.com/admin/index.html
 ```
 
 ```
-https://cpnt-262-final-project.herokuapp.com/admin
+https://cpnt-262-final-project.herokuapp.com/subscribe
 ```
 instead of
 ```
