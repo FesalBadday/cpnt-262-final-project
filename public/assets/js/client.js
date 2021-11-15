@@ -7,7 +7,7 @@ const fetchData = async () => {
     let link = null;
 
     // check what data is needed from link bar
-    if (window.location.pathname === '/subscribe') {
+    if (window.location.pathname === '/admin') {
       link = '/subs';
     } else if (window.location.pathname === '/team') {
       link = '/member';
@@ -43,14 +43,16 @@ const fetchData = async () => {
         // check what data is needed from link bar
         if (window.location.pathname === '/admin') {
           output +=
-            `<div class="sub-card">
-              <h2>Name : ${info.name}</h2>
-              <h3>Email : ${info.email}</h3> 
+            `<div>
+            <p>${info.name}</p>
+            <p>${info.email}</p>
+            <p>${info.platform}</p>
+            <p>${info.dateSigned}</p>
             </div>`
-
         } else if (window.location.pathname === '/team') {
           output +=
-            `<div class="profile-card">
+            `
+            <div class="profile-card">
               <img class="profile-pic" src="${info.profilePic}" alt="${info.name}">
               <h2>${info.name}</h2>
               <p>${info.title}<p>
@@ -60,7 +62,8 @@ const fetchData = async () => {
             </div>`
         } else if (window.location.pathname === '/store') {
           output +=
-            `<div class="card">
+            `
+            <div class="card">
               <article class="styles">
                 <a href="store/${info.id}">
                   <img src="${info.imageSrc}" alt="${info.title}" width="${info.width}" height="${info.height}">
@@ -70,7 +73,8 @@ const fetchData = async () => {
                 <p>${info.description}<p>
                 </div>
               </article>
-            </div>`;
+            </div>
+            `;
         } else {
           output +=
             `<div class="card">
