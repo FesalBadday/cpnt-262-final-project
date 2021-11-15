@@ -336,3 +336,15 @@ th {
 .page-404 li {
     list-style: none;
 }
+
+/* ***** */
+/* FONTS */
+/* ***** */
+
+h1 {
+    font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+p, h2 {
+    font-family: 'Archivo', sans-serif;
+}
