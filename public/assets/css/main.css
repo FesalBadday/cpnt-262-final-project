@@ -307,3 +307,32 @@ th {
     background-color: #167909;
     padding: .8rem;
 }
+
+/* *************** */
+
+/*  4 0 4 Section  */
+
+/* *************** */
+
+.page-404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-404 img {
+    width: 35%;
+}
+
+.page-404 a {
+    text-decoration: none;
+    color: #deb887;
+}
+
+.page-404 a:hover {
+    color: #ffa500;
+}
+
+.page-404li {
+    list-style: none;
+}
