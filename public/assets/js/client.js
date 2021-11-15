@@ -82,7 +82,8 @@ const fetchData = async () => {
                 <p>${info.description}<p>
                 </div>
               </article>
-            </div>`;
+            </div>
+            `;
         }
       })
     } else {
