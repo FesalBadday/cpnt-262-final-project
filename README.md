@@ -71,3 +71,4 @@ app.set('view engine', 'html')
 - [Monitor showing Cyberpunk](https://unsplash.com/photos/Bp_-zo3Nl28) by [MEAX PROD](https://unsplash.com/@meaxprod).
 - [two Ps4 controllers](https://unsplash.com/photos/1b6LfEIL7CY) by [Igor Karimov](https://unsplash.com/@ingvar_erik).
 - [Person playing some game on pc](https://unsplash.com/photos/EHLd2utEf68) by [Sean Do](https://unsplash.com/@everywheresean).
+- [pixeltrue-error](https://icons8.com/illustrations/illustration/pixeltrue-error) By [Pixeltrue](https://www.pixeltrue.com/packs) From [Icons8](https://www.icons8.com). [License](https://www.icons8.com/license).
