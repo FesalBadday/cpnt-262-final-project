@@ -31,6 +31,7 @@ nav li {
     margin: 20px;
     font-size: 20px;
     list-style: none;
+    font-family: 'M PLUS Code Latin', sans-serif;
 }
 
 nav a {
@@ -231,6 +232,15 @@ fieldset .label-box {
     margin: 20px auto 14rem auto;
     font-size: 20px;
     padding: 10px;
+    font-size: 30px;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    border-radius: 20px;
+    color: black;
+    background-color: whitesmoke;
+    border-style: none;
+    transition-duration: 0.4s;
+    border: 3px solid #7ebf60;
+    cursor: pointer;
 }
 
 .platform [type="radio"]+img {
