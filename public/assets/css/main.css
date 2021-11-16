@@ -1,6 +1,8 @@
 /* ********** */
 
+
 /* Navigation */
+
 
 /* ********** */
 
@@ -8,6 +10,7 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+
 
 /*logo*/
 
@@ -55,9 +58,60 @@ body {
     margin: 15px 10px;
 }
 
+
+/* Hamburger menue*/
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
 /* *************** */
 
+
 /* Gallery Section */
+
 
 /* *************** */
 
@@ -119,6 +173,7 @@ body {
     text-transform: uppercase;
 }
 
+
 /* For responsive gallery cards */
 
 @media (max-width: 500px) {
@@ -130,9 +185,12 @@ body {
     }
 }
 
+
 /* ****** */
 
+
 /* Footer */
+
 
 /* ****** */
 
@@ -148,9 +206,12 @@ body {
     padding: 10px;
 }
 
+
 /* **** */
 
+
 /* Hero */
+
 
 /* **** */
 
@@ -183,9 +244,12 @@ button:hover {
     background-color: #aef7a6;
 }
 
+
 /* ******* */
 
+
 /* Article */
+
 
 /* ******* */
 
@@ -209,9 +273,12 @@ button:hover {
     margin-bottom: 20rem;
 }
 
+
 /* ************ */
 
+
 /* Form Section */
+
 
 /* ************ */
 
@@ -221,7 +288,8 @@ button:hover {
     align-items: center;
 }
 
-.form-section h1, h2 {
+.form-section h1,
+h2 {
     text-align: center;
 }
 
@@ -286,9 +354,12 @@ fieldset .label-box {
     display: none;
 }
 
+
 /* ************ */
 
+
 /* Team Section */
+
 
 /* ************ */
 
@@ -327,9 +398,12 @@ fieldset .label-box {
     margin: auto auto 5rem auto;
 }
 
+
 /* ************** */
 
+
 /* Subscribe List */
+
 
 /* ************** */
 
@@ -342,7 +416,8 @@ table {
     margin: auto;
 }
 
-th, td {
+th,
+td {
     border: 2px solid #167909;
 }
 
@@ -351,9 +426,12 @@ th {
     padding: .8rem;
 }
 
+
 /* *************** */
 
+
 /*  4 0 4 Section  */
+
 
 /* *************** */
 
@@ -380,14 +458,20 @@ th {
     list-style: none;
 }
 
+
 /* ***** */
+
+
 /* FONTS */
+
+
 /* ***** */
 
 h1 {
     font-family: 'M PLUS Code Latin', sans-serif;
 }
 
-p, h2 {
+p,
+h2 {
     font-family: 'Archivo', sans-serif;
 }

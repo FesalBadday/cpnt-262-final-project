@@ -2,45 +2,78 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Subscribers</title>
-  <link rel="stylesheet" href="../assets/css/main.css">
-  <script src="../assets/js/client.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap" rel="stylesheet">  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribers</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <script src="../assets/js/client.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap" rel="stylesheet">
 </head>
 <header>
-  <!--Global Navigation-->
-  <nav>
-    <div class="logo">
-      <img src="../assets/icons8-rabbit-64.png" />
-    </div>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="store">Store</a></li>
-      <li><a href="team">Team</a></li>
-      <li><a href="subscribe">Subscribe</a></li>
-    </ul>
-  </nav>
+    <!--Global Navigation-->
+    <nav>
+        <!-- Top Navigation Menu -->
+        <div class="logo">
+            <img src="../assets/icons8-rabbit-64.png" />
+            <div class="topnav">
+                <a href="#home" class="active">Logo</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                <div style="padding-left:16px">
+                    <h3>Horizontal Mobile Navbar</h3>
+                    <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
+                    <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
+                    <p><strong>Note that this example should'nt be used if you have a lot of links, as they will "break" the navbar when there's too many (especially on very small screens).</strong></p>
+                </div>
+
+                <!-- End smartphone / tablet look -->
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        </a>
+        </div>
+        <div id="myLinks">
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="store">Store</a></li>
+            <li><a href="team">Team</a></li>
+            <li><a href="subscribe">Subscribe</a></li>
+        </ul>
+    </nav>
 </header>
+
 <body>
-  <h1 class="main-header">Subscribers</h1>
-  <section>
-    <table class="data">
-      <tr>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Platform</th>
-        <th>Date Signed</th>
-      </tr>
-    </table>
-  </section>
+    <h1 class="main-header">Subscribers</h1>
+    <section>
+        <table class="data">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Platform</th>
+                <th>Date Signed</th>
+            </tr>
+        </table>
+    </section>
 </body>
 
 </html>
