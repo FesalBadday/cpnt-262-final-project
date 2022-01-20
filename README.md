@@ -2,6 +2,7 @@
 
 ## Matrix Squad
 * [Live Site](https://cpnt-262-final-project.herokuapp.com)
+* [Subscribers](https://cpnt-262-final-project.herokuapp.com/admin)
 
 ### Authors
 * [Fesal](https://github.com/FesalBadday)
