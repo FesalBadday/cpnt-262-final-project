@@ -1,6 +1,7 @@
 # Product & Services Website
 
 ## Matrix Squad
+* [Live Site](https://cpnt-262-final-project.herokuapp.com)
 
 ### Authors
 * [Fesal](https://github.com/FesalBadday)
