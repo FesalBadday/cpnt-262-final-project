@@ -1,4 +1,4 @@
-# CPNT262 - Final Project
+# Product & Services Website
 
 ## Matrix Squad
 
